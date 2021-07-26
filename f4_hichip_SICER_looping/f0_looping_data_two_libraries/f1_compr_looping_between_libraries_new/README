@@ -1,0 +1,15 @@
+
+
+f3_data_202008_all_loop
+	MAPS results processed using chip-seq data of 1st submission
+
+f4_data_202008_new_all_loop
+	same k4 results (while k4 chip-seq datasets were trimmed)
+	but the k27ac MAPS resluts were reprocessed using islands from 202102 k27 chip-seq library
+
+f5_data_202008_new_shared_loop
+	results using shared loops across all samples
+
+
+
+

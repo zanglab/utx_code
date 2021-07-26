@@ -1,0 +1,36 @@
+##### ARCHIVE ####
+## -- search by gene, KDM6A
+## -- Donor available data type: SSM
+##  (1844 donors, 1 gene, 3178 mutations)
+## -- download Donor Data
+##################
+
+# == download IDs/clinical data of all donors 
+— https://dcc.icgc.org/
+— Donor available data type: SSM
+ (19,729donors, 57,753 gene, 81,782,588mutations 
+— download Donor Data, Clinical Data
+
+
+# == download IDs of donors who have mutations in KDM6A
+— https://dcc.icgc.org/
+— Donor available data type: SSM
+— mutation, search by location: chrX:44732757-44971847 (KDM6A, hg19)
+ (1805 donors, 2 gene, 3082 mutations 
+— download Donor Data, Clinical Data
+
+
+# == to check coordinate of KDM6A-cIRD (UTX (549-848))
+— https://cancer.sanger.ac.uk/cosmic/gene/analysis?ln=KDM6A
+— filter by amino-acid 549-848
+— p.R549K: GRCh38, X:45063540
+— p.H848L, GRCh38, X:45070198
+— GRCh38/hg38, chrX:45063540-45070198
+— GRCh37/hg19, chrX:44922785-44929443 (LiftOver)
+
+# == download IDs of donors who have mutations in KDM6A-cIRD (UTX (549-848))
+— https://dcc.icgc.org/
+— Donor available data type: SSM
+— mutation, search by location: chrX:44922785-44929443 (KDM6A-cIDR, hg19)
+ (166 donors, 1 gene, 155 mutations 
+— download Donor Data, Clinical Data

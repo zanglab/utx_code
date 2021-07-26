@@ -1,0 +1,57 @@
+==
+data_genomic
+==
+sorted and merged genomic file of
+- promoter
+- exon
+- intron
+- gene body
+- UDHS
+
+==
+data_loop_bedpe
+==
+bed file of left and right anchor of each HiChIP MAPS results
+
+
+==
+overlapped
+==
+run overlap between each anchor of each hm mark and each genomic profile
+
+
+==
+f2_loop_genomic_feature
+f2_loop_genomic_feature_new_with_UDHS
+==
+collected info. of genomic location of left/right anchor of each anchor
+if overlapped with promoter/exon/intron/GB, and 
+if overlapped with promoter/UDHS -- with UDHS, which is currently used
+
+
+==
+f3_loop_genomic_distribution
+==
+bar plot for 
+f2_loop_genomic_feature, and 
+f2_loop_genomic_feature_new_with_UDHS
+
+
+==
+f4_loop_length_distribution_pdf
+==
+distribution of length of loops 
+for each HM in each cell type
+
+
+==
+f5_loop_length_distribution_pdf
+==
+distribution of length of loops 
+for each HM combine all cell types
+
+
+
+
+
+

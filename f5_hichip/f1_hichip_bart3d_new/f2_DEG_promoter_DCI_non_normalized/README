@@ -1,0 +1,9 @@
+f1_promoter_DCI
+	DCI mapped to gene promoters
+	
+f1_promoter_DCI_rename
+	rename the filename to standard format
+	
+f2_expr_DCI_figs
+	distribution of DCI of DEG
+	

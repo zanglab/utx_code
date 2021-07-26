@@ -1,0 +1,89 @@
+====
+data
+====
+union of peaks/islands for each histone mark and TF
+copy the gene promoter and GB file
+UDHS profile
+
+
+====
+data_RPKM_1st_submit
+====
+1st review chip-seq data
+RPKM on promoter/UDHS
+
+chip_binding_pattern_promoter
+	1st review chip-seq data
+	RPKM of binding pattern for composite plots
+
+chip_binding_RPKM_promoter_GB_peak
+	1st review chip-seq data
+	RPM, RPKM and count on promoter/GB/peak regions	
+
+chip_binding_RPKM_promoter_UDHS
+	1st review chip-seq data
+	RPM, RPKM and count on promoter/UDHS
+
+
+====
+data_RPKM_20201127_1205_merged
+data_RPKM_20201209
+data_RPKM_20201220
+data_RPKM_202012CUTRUN
+====
+RPM, RPKM and count on promoter/UDHS
+
+
+
+==
+data_SICER_diff_chipseq_20201127_20201205_merged
+==
+sicer-df comparing 
+WT vs. Vector
+DEL vs. WT
+EIF vs. DEL
+using UTX chip-seq data
+
+
+==
+data_SICER_diff_chipseq_4th_20201220
+==
+sicer-df comparing 
+WT vs. Vector
+DEL vs. WT
+EIF vs. DEL
+using UTX/MLL4GK chip-seq data
+
+
+
+
+
+====                  
+f1_chip_binding_high_var_genes
+====
+use chip-binding RPM/RPKM of 1st chip-seq data
+identify the chip-binding high-variable genes
+
+
+
+====
+f2_chip_binding_high_var_genes_compr_DEG
+====
+check the overlap between chip-binding high-var genes 
+and DEG between Vector vs. WT                     
+use box plot of RPM/RPKM or composite plot to show the results
+
+
+
+====
+archived
+====
+first version of RPKM/count of chip-binding on promoters/GB/peaks
+convert RPKM to TPM 
+!! It's not accurate to assume that the chip-seq datasets are 
+!! enriched at the gene/peak regions, so count not convert RPKM to TPM
+
+
+
+
+

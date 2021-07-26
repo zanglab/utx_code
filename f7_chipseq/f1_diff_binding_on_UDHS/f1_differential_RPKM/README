@@ -1,0 +1,19 @@
+==
+f1_differential_RPKM_MA
+==
+for each antibody, show the MA plot of differential RPKM at UDHS/Promoter comparing 
+WT vs. Vector
+DEL vs. WT
+EIF vs. DEL
+
+
+==
+f1b_differential_RPKM_MA
+==
+merge all peak files from all chip-seq data
+only use those merged peak file overlapped UDHS/Promoter
+
+
+==
+f2_differential_RPKM_compr_antibody_scatter
+==

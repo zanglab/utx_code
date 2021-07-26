@@ -1,0 +1,84 @@
+====
+f0_data_process
+====
+QC and process the raw ChIP-seq, RNA-seq and HiChIP datasets
+identify DEG
+
+ 
+====
+f1_KDM6A_mutation
+====
+use public ICGC data to check the clinical results of patients
+- with mutations on UTX cIDR regions
+- with mutations in UTX
+- without mutations in UTX
+
+
+====
+f2_gene_expression
+====
+# identify DEG between Vector and WT
+PCA on all genes and DEG between Vector and WT
+
+
+====
+f3_differential_chip_binding
+====
+differential binding of K4/K27 markers on
+- union peaks/islands
+- gene promoter (TSS+/-2kb, TSS+/-10kb)
+- gene body
+then check the binding patterns of DEG between Vector and WT
+
+
+====
+f4_hichip_SICER_looping
+====
+HiChIP data processed using MAPS
+check the length of loops and genomic positions of loop anchors
+check the association between genes and differential loops
+
+
+==
+f4_hichip_MAPS_new
+==
+HiChIP data processed using MAPS
+using the final selected chip-seq data to call SICER islands
+and use the merged islands as input for MAPS
+
+
+
+==
+f5_hichip
+==
+additional hichip analysis
+- HiC-Pro
+- BART3D
+- FitHiChIP
+- hichipper
+
+
+==
+f6_proseq
+==
+analysis of proseq data
+
+
+
+==
+f7_chipseq
+==
+analysis of final selected QC passed chipseq data
+
+raw & trimmed data
+/nv/vol190/zanglab/zw5j/projects_data/UTX_HaoJiang/final_chipseq_merge_trim
+
+processed data
+/nv/vol190/zanglab/zw5j/since2019_projects/UTX_HaoJiang/f0_data_process/chip_seq/final_chipseq
+
+
+
+
+
+
+

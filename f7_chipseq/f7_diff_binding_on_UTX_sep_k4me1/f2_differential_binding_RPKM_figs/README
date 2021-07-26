@@ -1,0 +1,43 @@
+
+
+==
+f1_differential_NormReads_MA
+==
+log2FC vs. log of average binding level for each factor comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+
+
+==
+f2_diff_logFC_per_CellType_compr_Factor_scatter
+==
+log2FC of binding comparing pairs of factors in 
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+
+==
+f2b_diff_logFC_per_CellType_compr_Factor_scatter
+==
+only focus on those regions with increased H3K4me3 in WT vs. Vector
+
+
+==
+f3_diff_logFC_compr_CellType_per_Factor_scatter
+==
+for each factor, comparing the logFC of binding changes in 
+- WT vs. Vector against DEL vs. WT, and 
+- DEL vs. WT against EIF vs. DEL
+
+==
+f3b_diff_logFC_compr_CellType_per_Factor_scatter_k4me1_increased
+==
+only focus on those regions with increased H3K4me3 in WT vs. Vector
+
+
+==
+f4_heatmap_across_CellTypes
+f4b_heatmap_across_CellTypes_k4me1_increased
+==
+heatmap showing binding levels across all cell types

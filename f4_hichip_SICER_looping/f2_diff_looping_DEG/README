@@ -1,0 +1,45 @@
+==
+f1_loop_anchor_with_deg
+==
+grep all loops whose anchors overlap promoters of DEG of DEL/WT
+
+==
+f2_deg_diff_loop_info
+==
+for loop with anchors overlapped with 
+- all genes
+- up genes between DEL/WT
+- down genes between DEL/WT
+check the % of loop occur in all 31 combinations of VEC,WT,DEL,EIF,TPR
+
+
+!!!!
+!! focus on genes rather than loops
+!!!!
+
+
+
+==
+f3_gene_cor_diff_looping
+==
+collect all the genes with promoters overlapping loops occur/missing in different cells
+check % of DEG comparing WT/Vector and DEL/WT
+
+==
+f3b_gene_cor_diff_looping_high_threshold
+==
+same as f3, use the union of loops with fdr<1e-5
+
+
+==
+f4_gene_cor_diff_looping_both_anchor_on_promoter
+==
+same as f3, only check those loops that both anchors overlapped with gene promoters
+collect all genes associating different groups of loops
+check % of DEG
+
+
+
+
+
+

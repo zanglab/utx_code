@@ -1,0 +1,39 @@
+==
+data_binding_patter_readCount
+data_RPKM
+==
+get the binding pattern and RPKM/readCount
+of each factor surrounding the regions 
+with increased k4me1/k27ac in WT vs. Vector
+
+
+==
+data_hm_binding
+==
+regions with increased k4me1/k27ac in WT vs. Vector
+- macs2 peaks (WT w/ Vector as control) and 
+- sider-df islands (WT compared to Vector)
+
+
+==
+f0_data_integration
+==
+to integrate the normalized read count per kb
+- by total reads (RPKM), or by total reads is islands 
+- at peak/island center +/-500bp or +/-2000bp 
+for each factor in each cell type, and calculate the logFC comparing 
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+
+
+==
+f1_differential_binding_figs
+==
+figures showing the differential binding and heatmap patterns
+of the normalized read count
+
+
+
+
+

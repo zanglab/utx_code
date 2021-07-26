@@ -1,0 +1,15 @@
+==
+f1_differential_NormReadCount
+==
+differential binding of each factor comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+using both reads normalized by 
+- total read counts in ChIP-seq reads
+- total read counts mapped to SICER islands in ChIP-seq reads
+
+For downstream analysis
+UTX read counts were normalized by total read counts in ChIP-seq reads
+(UTX vector should not have peaks and if normalized by reads in islands, the vector signals would be enhanced).
+Others were normalized by totall reads mappined to SICER2 islands in ChIP-seq data.

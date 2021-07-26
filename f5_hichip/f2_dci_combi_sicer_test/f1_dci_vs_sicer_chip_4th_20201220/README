@@ -1,0 +1,31 @@
+==
+overlapped_200k
+==
+overlapped between bart3d DCI from HiChIP data and 
+- sicer-df increased islands
+- sicer-df decreased islands 
+from UTX ChIP-seq data
+comparing 
+- WT vs. Vector, 
+- DEL vs. WT, 
+- EIF vs. DEL
+
+
+==
+overlapped_500k
+==
+using BART3D DCI with genomic-dis=500k
+
+
+==
+f1_figs_compr_dci_200k
+==
+plots of association between DCI and sicer-df score, comparing DCI of 
+- all bins
+- bins with increased UTX binding
+- bins with decreased UTX binding
+
+
+==
+f1_figs_compr_dci_500k
+==

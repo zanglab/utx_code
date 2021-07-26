@@ -1,0 +1,48 @@
+==
+f0_looping_data_two_libraries
+==
+hichip looping data call from two libraries: 1st-submission and 202008
+
+==
+f0_looping_data_v2
+==
+re-indexed (id as chr-start-end) looping of new MAPS results
+(use the final selected chip-seq data to call SICER islands
+and use the merged islands as input for MAPS)
+
+
+==
+f0_looping_genomic_distribution
+==
+for the HiChIP-seq data in each cell and for each mark
+check if the right/left anchor is overlapped with 
+- TSS+/-2kb gene promoters
+- none promoter UDHS
+- others
+
+
+==
+f0_looping_genomic_distribution_v2
+==
+using reprocessed MAPS results using 
+islands from final selected ChIP-seq data
+
+
+==
+f1_diff_looping
+==
+union the loop, check the occurrence across the celltypes for each loop
+
+
+==
+f2_diff_looping_DEG
+==
+whether diff loops are associated with DEG comparing
+Vector vs. WT
+WT vs. DEL
+
+
+
+
+f3_diff_looping_HM_mark
+f4_diff_looping_TR_enrichment

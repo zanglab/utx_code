@@ -1,0 +1,11 @@
+archive_20210604
+
+heatmap and composite plots of all chip-seq data at UTX binding sites with 
+increased k4m1/k27ac, with FC>1.5 and avg RPKM>0.25
+
+
+
+***_by_UTX_qvalue
+***_by_UTX_RPKM
+
+heatmap ranked by UTX RPKM in 4kb regions or MACS2 peak qvalues

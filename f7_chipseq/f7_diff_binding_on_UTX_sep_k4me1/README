@@ -1,0 +1,76 @@
+==
+data_utx_binding
+==
+for both UTX and UTXFEB, get
+- macs2 peaks (WT w/ Vector as control) and 
+- sider-df islands (WT compared to Vector)
+
+
+==
+data_binding_patter_readCount
+==
+for both UTX and UTXFEB, 
+get macs2 peaks (WT w/ Vector as control) and sider-df islands 
+get the binding pattern of each factor surrounding those regions
+
+
+==
+data_RPKM
+==
+for both UTX and UTXFEB, 
+get macs2 peaks (WT w/ Vector as control) and sider-df islands 
+get the RPKM/readCount of each factor at those regions
+
+
+
+==
+f0_data_integration
+f0_data_integration_v2
+f0_data_integration_v3_RPKM
+==
+to integrate the normalized read count per kb
+- by total reads (RPKM), or by total reads is islands 
+- at peak/island center +/-500bp or +/-2000bp 
+for each factor in each cell type, and calculate the logFC comparing 
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+
+xx_v2, add newest k4me2 data
+
+xx_v3_RPKM, normalized as RPKM, and compare between
+- WT vs. Vector
+- DEL vs. WT 
+- MT2 vs. WT (if with data)
+- EIF vs. DEL
+
+
+==
+f1_differential_binding_figs
+f1_differential_binding_figs_v2
+==
+figures showing the differential binding of the normalized read count 
+- normalized by total reads (RPKM) at peak/island center +/-500bp for UTX
+- normalized by total reads is islands at peak/island center +/-2000bp for others
+
+xx_v2, add newest k4me2 data
+
+
+
+==
+f2_differential_binding_RPKM_figs
+f2_differential_binding_RPKM_figs_v2
+==
+figures showing the differential binding of the normalized read count
+- normalized by total reads (RPKM) at peak/island center +/-2000bp for all factors
+
+xx_v2, add newest k4me2 data
+
+
+==
+f3_UTX_UTXFEB_correlation
+==
+check the binding correlations between UTX and UTXFEB
+
+
+

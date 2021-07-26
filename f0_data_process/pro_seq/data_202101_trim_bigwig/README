@@ -1,0 +1,32 @@
+pipelines from 
+https://github.com/Danko-Lab/proseq2.0
+
+
+
+f1_processed_data_with_dup
+	combine replicates, keep duplicated reads
+	generate the .bw files for each data
+
+
+f2_processed_data_with_dup_sep_rep
+	process for each replicate
+
+
+f2b_merged_plus_minus_tracks
+	merge .bw files from plus/minus files into one .bw file
+
+
+f3_processed_data_with_dup_sep_rep_MAPQ10
+	keep only those properly mapped high quality reads
+
+
+f3b_merged_plus_minus_tracks
+	merge .bw files from plus/minus files into one .bw file
+	
+f4_strand_specific_bedfile
+	separate the 5prime bed files by strand
+	
+	
+	
+	
+	

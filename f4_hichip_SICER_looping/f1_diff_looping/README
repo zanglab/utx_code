@@ -1,0 +1,14 @@
+==
+f1_diff_looping
+==
+for each HM
+union all loops from all cell types
+check the occurrence of each loop across all five cell types
+- VEC,WT,DEL,EIF,TPR
+
+
+
+==
+f2_diff_looping_high_thre
+==
+for each HM and each cell, keep only those loops with fdr<1e-5

@@ -1,0 +1,19 @@
+==
+f1_hichip_bart3d
+==
+use BART3D to analyze the HiChIP data
+check if the gene expression changes are associated with DCI
+
+
+==
+f1_hichip_bart3d_new
+==
+updated BART3D results
+bart3d results with updated bart3d allowing normalized by read coverage
+
+
+
+==
+f2_dci_combi_sicer
+==
+compr 5kb DCI vs. Sicer differential score

@@ -1,0 +1,62 @@
+==
+f1_differential_RPKM_MA
+==
+differential binding of each factor comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+reads were normalized by total read counts mapped to SICER islands in ChIP-seq data
+(MA plots for all factors excluding UTX were used in master slides)
+(MA plots for UTX see ../f1_differential_RPKM/f1_differential_RPKM_MA)
+
+==
+f2_differential_RPKM_compr_antibody_scatter
+==
+differential binding comparing different factors comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+reads were normalized by total read counts mapped to SICER islands in ChIP-seq data
+(resultes from f1_differential_RPKM_MA)
+
+
+==
+f2b_differential_UTX_RPKM_other_normByIslands_scatter
+==
+differential binding comparing different factors comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+for UTX, select differential binding from RPKM, es500bp
+for others, select differential binding from reads normalized by SICER total reads, es2000bp
+
+
+==
+f3_heatmap_compr_WT_Vector
+==
+for both reads normalized by 
+- total read counts in ChIP-seq reads
+- total read counts mapped to SICER islands in ChIP-seq reads
+plot heatmap of binding patterns for each factor surrounding UTX peaks
+
+
+==
+f4_heatmap_compr_WT_Vector_surrounding_DEG
+==
+for both reads normalized by 
+- total read counts in ChIP-seq reads
+- total read counts mapped to SICER islands in ChIP-seq reads
+plot heatmap of binding patterns for each factor 
+surrounding UTX peaks that were overlapped with
+- all genes
+- up genes
+- down genes
+in WT over Vector as control
+
+
+==
+f5_heatmap_compr_WT_Vector_by_diff_HM_binding
+==
+separate UTX regions into HM binding increased/decreased/not-changed regions for heatmap
+
+

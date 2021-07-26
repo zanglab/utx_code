@@ -1,0 +1,54 @@
+==
+data_dci_200k
+==
+BART3D results with genomic distance 200k
+
+
+==
+data_dci_500k
+==
+BART3D results with genomic distance 200k
+
+
+==
+data_sicer2_chipseq_20201127_20201205_merged
+==
+sicer-df comparing 
+WT vs. Vector
+DEL vs. WT
+EIF vs. DEL
+using UTX chip-seq data
+
+
+==
+data_sicer2_chipseq_4th_20201220
+==
+sicer-df comparing 
+WT vs. Vector
+DEL vs. WT
+EIF vs. DEL
+using UTX/MLL4GK chip-seq data
+
+
+==
+f1_dci_vs_sicer_chip_4th_20201220
+==
+association between DCI and sicer-df score, comparing DCI of 
+- all bins
+- bins with increased UTX binding
+- bins with decreased UTX binding
+
+
+
+==
+f2_dci_vs_sicer_chip_4th_20201220_sep_k4_binding
+==
+association between DCI and sicer-df score, comparing DCI of 
+- all bins overlap sicer islands
+- bins with increased UTX binding 
+- bins with decreased UTX binding
+- bins with increased UTX binding and K4 binding
+- bins with decreased UTX binding and K4 binding
+
+
+

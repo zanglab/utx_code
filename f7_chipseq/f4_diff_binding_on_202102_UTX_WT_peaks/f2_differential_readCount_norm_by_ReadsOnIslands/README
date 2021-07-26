@@ -1,0 +1,25 @@
+==
+f1_differential_RPKM_MA
+==
+differential binding of each factor comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+reads were normalized by 
+- total reads and 
+- total reads mapped to SICER islands in ChIP-seq data 
+for all factors, for both es500bp and es2000bp
+
+
+==
+f2_differential_UTX_RPKM_other_normByIslands_scatter
+==
+differential binding comparing different factors comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+for UTX, select differential binding from RPKM, es500bp
+for others, select differential binding from reads normalized by SICER total reads, es2000bp
+
+
+

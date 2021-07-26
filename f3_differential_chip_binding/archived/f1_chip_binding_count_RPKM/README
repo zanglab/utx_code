@@ -1,0 +1,12 @@
+====
+py1_write_slurm.py
+py1_write_slurm_append.py
+py2_RPKM_count_collection.py
+====
+for each chip antibody, get the RPKM/count on union peaks/islands, TSS and gene body
+convert the RPKM to TPM
+
+====
+py3_get_chip_binding_variable.py
+====
+calculate residual from the linear fit of log(mean) and log(CV) of each region/gene across all conditions

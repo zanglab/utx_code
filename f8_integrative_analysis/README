@@ -1,0 +1,19 @@
+==
+data
+	combined data of gene expression, DCI and hm RPKM of each gene
+	
+
+==
+f1_gene_expr_cor_DCI_patterns
+	check DEG between WT and Vector and how they change in DEL
+	check genes with positive DCI value in WT vs. Vec., and analyze their DCIs in DEL vs. WT
+
+
+==
+f2_expr_DCI_cor_HM_RPKM
+	check association between
+	expression vs. RP changes
+	DCI vs. RP changes
+	
+	then select those genes with increased k4m3 DCI, k4m1 RP and expression,
+	do David GO analysis

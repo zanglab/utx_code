@@ -1,0 +1,16 @@
+==
+data_binding_pattern
+==
+get the binding pattern (raw count) surrounding UTX binding sites
+
+
+==
+f1_PROseq_pattern
+==
+heatmap/composite plots of binding patterns
+normalized as RPKM or by spike-in drosophila reads
+
+'total_hg38' -- RPKM
+'total_dm6_f0x2_q10' -- by spike-in reads
+'hg38_div_dm6_f0x2_q10' -- by spike-in reads and sequence depth
+

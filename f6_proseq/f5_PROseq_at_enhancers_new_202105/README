@@ -1,0 +1,77 @@
+==
+data
+==
+Enhancers was selected as those H3K4me1 or H3K27ac islands (across all cell types) that overlap with UTX peaks (WT with Vector as control) 
+Then select the PRO-seq peaks that were on enhancers and check the PRO-seq signals across samples.
+
+H3K4me1_overlapping_H3K27ac_overlapping_UTX - RPO-seq overlapping (UTX that are on H3K4me1_overlapping_H3K27ac)
+H3K27ac_H3K4me1_with_UTX - RPO-seq overlapping either H3K27ac w/ UTX or H3K4me1 w/ UTX
+	
+		
+==
+f1_extract_data
+==
+extract the signal of enhancer-overlapped RPO-seq peaks (smaller sized file for easier analysis)
+
+
+==
+f2_heatmap_RPO-seq_at_enhancer_combi_rep
+==
+merge/combine/average two replicates
+show the RPO-seq signals at enhancers 
+
+
+==
+f2b_heatmap_RPO-seq_at_enhancer_combi_rep_sep_promoter_overlap
+==
+merge/combine/average two replicates
+show the RPO-seq signals at enhancers 
+separate into promoter-overlapped and non-overlapped regions
+
+
+
+==
+f3_RPO-seq_at_enhancer_replicate_combined_log2FC_scatter
+==
+check if the RPO-seq changes in WT over Vector were reversed/rescued by DEL
+RPKM on Proseq calculated as average of RPKM from the +/-2kb binding patterns
+
+==
+f3b_RPO-seq_at_enhancer_replicate_combined_log2FC_scatter
+==
+re-calculate the PRKM and plot the figs
+/nv/vol190/zanglab/zw5j/since2019_projects/UTX_HaoJiang/f6_proseq/data_0x2_MAPQ10/f5_proseq_union_peak_RPKM
+
+
+==
+f3c_RPO-seq_at_enhancer_replicate_combined_log2FC_scatter_sep_promoter_overlap
+==
+re-calculate the PRKM and plot the figs
+separate regions into promoter-overlapped and non-overlapped groups
+## make sure you use the RPKM column, and 
+## make sure you directly plot the scatters rather than fit by color density
+
+
+==
+f4_heatmap_RPO-seq_at_enhancer_combi_rep_WT_changed
+==
+RPO-seq signals at enhancers that have decreased/increased RPO-seq binding in WT over Vector
+
+
+==
+f5_heatmap_RPO-seq_at_enhancer_combi_rep_WT_changed_rep_Promoter_overlap
+==
+RPO-seq signals at enhancers that 
+- overlapped or NOT overlapped with Promoters, and 
+- have decreased/increased RPO-seq binding in WT over Vector 
+
+
+
+
+
+
+
+
+
+
+

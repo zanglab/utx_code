@@ -1,0 +1,23 @@
+==
+data_RPKM
+==
+binding RPKM/readCount at UTX peak regions (center +/-500pb and 2kb) 
+
+
+==
+data_binding_pattern_readCount
+==
+binding pattern (readCount) of chip-seq on UTX peaks
+
+
+
+==
+f2_differential_readCount_norm_by_ReadsOnIslands
+==
+for both differential scatter/MA plot and heatmap
+use RPKM for UTX, while 
+use read count normalized by total number of reads within merge sicer islads for other factors
+(the code here was modified to generate results using both normalization)
+
+
+

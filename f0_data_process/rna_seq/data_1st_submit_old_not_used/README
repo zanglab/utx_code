@@ -1,0 +1,18 @@
+command line:
+
+python 0_write_out_name_list.py > star_rsem_match_name_list.txt 
+python 1_star_rsem_write_slurm_ucsc_refseq_with_QC.py -i star_rsem_match_name_list.txt  -s hg38/hg19 -o slurm_out
+for i in slurm_out/*.slurm;do sbatch $i;done
+python 2_qc_collection.py -i processed_results -o qc.csv
+python 3_expr_collection.py  -i processed_results/ -o f3_expr
+python 4_qc_plots.py -i qc.csv -o f4_qc_figs
+
+
+NOTES:
+
+1. !!! Do remember to check lines 33-34 for suffix of .fq files, e.g., R1_00x.fastq.gz
+2. edit lines 50-51, index_file (hg19 or hg38)
+3. edit line 77 to change memory
+4. Run the .slurm file under the current directory, e.g., 
+	$ for i in slurm_out/*.slurm;do sbatch $i;done
+

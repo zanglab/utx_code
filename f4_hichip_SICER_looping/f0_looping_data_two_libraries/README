@@ -1,0 +1,27 @@
+
+
+==
+data_202008_new
+
+same K4 results with data_202008
+but k27 were re-processed using new k27 peak files
+
+
+
+
+
+==
+f1_compr_looping_between_libraries
+
+for bedpe file from two libraires, add new index, and check the similarity
+- compr loops count/expected number across cells
+with each library
+
+
+
+
+
+==
+f1_compr_looping_between_libraries_new
+
+use new k27 maps results processed from new k27 chip-seq data

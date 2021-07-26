@@ -1,0 +1,24 @@
+202011_UTX
+202011_UTX_trim
+202102_H3K27ac_H3K4me1
+202102_H3K27ac_H3K4me1_trim
+202102_UTX_H3K27me3
+202102_UTX_H3K27me3_trim
+202104_UTX_H3K4me2
+	process merged chip-seq data from different libraies
+	using original data or trimmed data
+	
+cl_rename_MT_to_MT2.log
+	used to rename MT to MT2
+	
+re_1st_submission_H3K4me3_MLL4SC_trim
+re_202012_H3K4me2_trim
+	re-process the previous data using trimmed data
+
+sicer2_islands
+sicer_df
+	sicer results
+
+macs2_df
+	for k4me1/k27ac/mll4, call peaks in WT using Vector as control 
+	used to check the HM binding patterns at those regions with increased k4me1/k27ac/mll4 in WT

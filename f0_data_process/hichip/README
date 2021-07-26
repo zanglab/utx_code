@@ -1,0 +1,56 @@
+==
+data_1st_submit  
+==
+data from /nv/vol190/zanglab/bs6yk/HICHIP
+use MACS2 peaks from matched sample
+
+
+==
+data_1st_submit_sicer2_merged_islands
+==
+use merged SICER2 islandss from all samples
+
+
+==
+data_1st_submit_sicer2_merged_islands_new
+==
+re-run the k4me3 data, using the re-processed data from trimmed .fz
+consistent with the results in 
+ - data_202008_sicer2_merged_islands_with_new_k27
+
+
+
+==
+data_202008
+==
+data from /nv/vol190/zanglab/zw5j/projects_data/UTX_HaoJiang/data_20200730/
+for each HM, use MACS2 peaks from matched sample
+
+
+==
+data_202008_macs2_merged_peaks
+==
+for each HM, use merged MACS2 peaks from all samples
+
+
+==
+data_202008_sicer2_merged_islands
+==
+for each HM, use merged SICER2 islandss from all samples
+
+
+==
+data_202008_sicer2_merged_islands_with_new_k27
+==
+run k27 hichip data using sicer islads called from final selected 202102 k27 chipseq data 
+re-run the k4me3 data, so no need to select from two folders in down-stream analysis
+consistent with the results in 
+- data_1st_submit_sicer2_merged_islands_new
+
+
+
+NOTES:
+- In each sub-folder, use bedpe2tabix to generate longrange interaction files for WashU browser visualizaiton
+- In each sub-folder, keep only those NON singleton summit loop to check the genome wide looping changes
+
+

@@ -1,0 +1,17 @@
+
+f1_UTX_binding_DCI
+	assign DCI score (coverage normalized) to UTX binding sites
+	
+f2_utx_binding_DCI_figs
+	check DCI of all bins, bins with UTX and bins with UTX + increased k4me1
+
+f2b_utx_binding_DCI_figs_with_wo_k4_FC1.5
+	check DCI of 
+	bins with UTX + increased k4me1
+	bins with UTX + NOT increased k4me1
+	chip-seq signal normalized as PRKM
+	
+f3_utx_binding_DCI_figs_w_k27ac
+	check DCI of all bins, bins with UTX and bins with UTX + increased k4me1
+	
+	

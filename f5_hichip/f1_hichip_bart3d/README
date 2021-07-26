@@ -1,0 +1,39 @@
+==
+f0_run_bart3d
+==
+bart3d results
+
+==
+f0_run_bart3d_new
+==
+bart3d results with updated bart3d allowing normalized by read coverage
+
+==
+f1_promoter_DCI
+==
+map differential chromatin interaction (DCI) to gene promoter region
+
+
+==
+f2_expr_cor_DCI
+==
+check correlation between 
+- gene expression log2FC and 
+- hichip DCI
+
+
+==
+f3_WT_2020NOV_UTX_bound_DCI
+f3_WT_2021FEB_UTX_bound_DCI
+==
+compare DCI distribution at 
+- all genomic bins
+- bins with UTX binding
+- bins without UTX binding
+using UTX data from different library
+
+
+
+
+
+

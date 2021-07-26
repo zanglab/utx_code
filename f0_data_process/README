@@ -1,0 +1,35 @@
+
+ChIPseq, RNA-seq and HiCHIP data for Nature submission (data_1st_submit)
+/nv/vol190/zanglab/bs6yk/
+
+HiChIP data (20200730)
+/nv/vol190/zanglab/zw5j/projects_data/UTX_HaoJiang/data_20200730/ (data_202008)
+
+
+==
+hichip
+==
+
+MAPS for HiChIP data
+
+
+==
+hichip_hicpro_hichipper
+==
+
+use HiC-Pro to do the mapping
+Hichipper to call differential loops
+
+
+==
+hichip_FitHiChIP
+==
+
+FitHiChIP for hichip data
+
+
+
+
+
+
+

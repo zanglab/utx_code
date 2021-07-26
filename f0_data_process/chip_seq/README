@@ -1,0 +1,103 @@
+!!!
+!!! The .fq files of del_TPR_H3K4me1_rep and del_TPR_H3K27ac should be switched
+!!! for data_1st_submit, I manually renames the results after call peak using MACS2
+!!! for data_1st_submit_SICER2, directly processed the data using the name corrected bam files
+!!!
+
+
+
+==
+data_1st_submit
+==
+/nv/vol190/zanglab/bs6yk/NATDATA/CHIPSEQ/
+use MACS2 to call peak
+
+HA	HA tagged UTX (KMD6A)	the UTX protein was labbeled with HA and FLAG
+HA_with_Vector_ctrl	use HA in Vector as control
+H3K27ac
+H3K27me3
+H3K4me1_rep	the H3K4me1 data not submitted to GEO, replicate one	
+H3K4me1	
+H3K4me3	
+MLL4 (KMT2D)	MLL4 antibody from Abgent
+MLL4SC (KMT2D)	MLL4 antibody from Santa Cruz
+UTX	HA tagged UTX (KMD6A)	
+UTX_with_Vector_ctrl	use UTX in Vector as control
+
+
+==
+data_1st_submit_SICER2
+==
+Use SICER2 to call peak
+/nv/vol190/zanglab/bs6yk/NATDATA/CHIPSEQ/
+
+
+
+==
+data_202009
+==
+ChIP-seq data of Flag/UTX/MLL4 from here
+/nv/vol190/zanglab/bs6yk/BS202009_JiangLab
+
+
+==
+data_202012
+==
+/nv/vol190/zanglab/bs6yk/Jianglab202012CHIP/
+use MACS2 to call peak
+
+
+==
+data_202012_SICER2
+==
+/nv/vol190/zanglab/bs6yk/Jianglab202012CHIP/
+use SICER to call islands
+
+
+==
+data_4th_20201220
+==
+/nv/vol190/zanglab/bs6yk/Jianglab-20201220seq
+
+
+==
+data_4th_20201220_SICER2
+==
+/nv/vol190/zanglab/bs6yk/Jianglab-20201220seq
+use SICER2 to call islands
+
+
+==
+data_20201223K4M1
+==
+/nv/vol190/zanglab/bs6yk/20201223K4M1
+
+
+==
+data_202101
+==
+/nv/vol190/zanglab/bs6yk/202101CHIPSEQ
+bwa aln (all other previous single-end chip-seq data are process with bwa mem)
+
+
+==
+data_202101_new
+==
+/nv/vol190/zanglab/bs6yk/202101CHIPSEQ
+bwa mem
+
+
+
+==
+data_2021FEB
+/nv/vol190/zanglab/bs6yk/2021FEBCHIP
+
+==
+data_2021FEB_trim
+/nv/vol190/zanglab/zw5j/projects_data/UTX_HaoJiang/trimming_reads/chipseq_2021FEB/trim_out
+
+==
+data_2021FEB_trim_MACS_q01
+macs2 peaks with q=0.1
+
+

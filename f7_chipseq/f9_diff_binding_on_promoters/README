@@ -1,0 +1,13 @@
+==
+data_RP
+	get RP of each HM on gene promoters
+
+=
+data_RPKM
+	get RPKM of each HM on gene promoters
+
+
+
+
+
+

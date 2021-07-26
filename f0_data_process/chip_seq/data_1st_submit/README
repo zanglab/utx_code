@@ -1,0 +1,10 @@
+!!! switch the name of del_TPR_H3K4me1_rep and del_TPR_H3K27ac
+!!! see the cl.log in process_qc_out
+
+use bwa mem  in bwa mapping
+
+xxx_merge_bam: merge bam files from replicates
+
+XXX_recall_peak: user lower threshold to call peak
+
+data_correlation: use genome wide binding for the chip-seq correlation

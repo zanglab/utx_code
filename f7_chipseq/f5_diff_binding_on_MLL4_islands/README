@@ -1,0 +1,22 @@
+==
+data_RPKM
+==
+binding RPKM/readCount at MLL4_islands (islands, and center +/-500pb and 2kb) 
+
+
+==
+data_UTX_overlapped_MLL4
+==
+MLL4 islands with UTX binding
+
+
+
+==
+f2_differential_readCount_norm_by_ReadsOnIslands
+==
+for both differential scatter/MA plot  
+use RPKM for UTX, while 
+use read count normalized by total number of reads within merge sicer islads for other factors
+
+
+

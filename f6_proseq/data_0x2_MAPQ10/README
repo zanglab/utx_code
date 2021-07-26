@@ -1,0 +1,36 @@
+==
+f1_TSS_pattern
+==
+PROseq binding pattern surrounding TSS
+
+==
+f2_TSS_pattern_figs
+==
+check if the binding patterns
+
+
+==
+f3_promoter_GB_UDHS_count
+==
+read count at promoter/gene-body/UDHS
+
+
+==
+f4_pattern_at_PROseq_union_peak
+==
+PROseq binding pattern surrounding the union of PROseq peaks
+
+
+==
+f4_pattern_at_PROseq_union_peak_HM_overlapped
+==
+PROseq binding pattern surrounding the union of PROseq peaks
+that also overlapped with K4/K27 peaks (for quicker and smaller sized output)
+
+
+==
+f5_proseq_union_peak_RPKM
+==
+PROseq RPKM on union of PROseq peaks
+
+

@@ -1,0 +1,20 @@
+f1_PCA
+	PCA on all genes and DEG between WT/Vector
+	
+	
+f2_heatmap
+    heatmap using DEG between WT/Vector
+    
+    
+f3_enrichr
+f4_enrichr_figs
+	enrich analysis of DEG
+	
+	
+f5_deg_volcano
+	valcano plot of DEG
+	
+	
+f7_deg_venn
+f8_bart2_results
+    compare the overlap of DEG between WT/Vector, DEL/WT

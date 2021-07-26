@@ -1,0 +1,58 @@
+
+==
+f0_run_bart3d_new
+==
+bart3d results with updated bart3d allowing normalized by read coverage
+
+==
+f1_DEG_promoter_DCI
+f2_DEG_promoter_DCI_non_normalized
+==
+map differential chromatin interaction (DCI, w/ or w/o normalization) to gene promoter region, 
+check correlation between 
+- gene expression log2FC and 
+- hichip DCI
+
+
+
+
+!!!! for UTX binding sites, 
+you need to keep each and every of the DCI overlapped with the UTX site
+rather than use the averaged DCI values
+
+
+==
+f3_UTX_binding_cor_DCI
+f4_UTX_binding_cor_DCI_non_normalized
+==
+compare DCI distribution at 
+- all genomic bins
+- bins with UTX binding
+- bins with UTX binding and increased H3K4me1
+using UTX data from different library
+
+
+==
+f5_UTX_binding_with_extend_cor_DCI
+==
+compare DCI distribution at 
+- all genomic bins
+- bins with UTX binding
+- bins with UTX binding and increased H3K4me1
+while extend the UTX binding sites to 0bp, 20kb, 50kb of each side
+
+
+==
+f6_HM_binding_cor_DCI
+==
+compare DCI distribution at 
+- all genomic bins
+- bins with increased k27ac/k4me1 in WT w/ Vector as control
+
+
+
+
+
+
+
+

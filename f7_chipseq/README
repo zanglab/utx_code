@@ -1,0 +1,72 @@
+==
+f1_diff_binding_on_UDHS
+==
+RPKM/readCount, binding pattern, and dfiferential binding level fucusong on UDHS
+BUT most UTX peaks are not on UDHS
+f1_differential_binding_on_UDHS/data_peak_overlap/peaks_on_UDHS/
+
+
+==
+f2_diff_binding_on_202011_UTX_WT_peaks
+==
+RPKM/readCount, binding pattern, and differential binding level on
+2020-11-UTX peaks called from WT using Vector as control
+
+
+==
+f3_diff_binding_on_sicer_df
+==
+heatmap of binding pattern on SICER islands with differential K4/K27 binding
+compared from SICER-df
+
+
+==
+f4_diff_binding_on_202102_UTX_WT_peaks
+==
+RPKM/readCount, binding pattern, and differential binding level on
+2021-02-UTX peaks called from WT using Vector as control
+
+
+
+==
+f5_diff_binding_on_MLL4_islands
+f6_diff_binding_on_H3K4me1_islands
+==
+RPKM/readCount, differential binding level on MLL4/H3K4me1/H3K4me2 sicer-df islands (WT over Vector)
+
+
+
+==
+f7_diff_binding_on_UTX_sep_k4me1
+==
+check chip binding at regions w/ increased UTX in WT compared to Vector control
+for both 202011 data and 202102 data
+try both MACS2 peaks and sicer-df islands
+then focus on those regions with inreased K4me1 binding in WT compared to vector control
+
+
+==
+f8_diff_binding_on_k4me1_k27ac_regions
+==
+check the HM binding on regions with increased k4me1/k27ac in WT vs. Vector
+use both the peaks and islands for k4me1/k27ac
+normalized using reads in islands
+
+
+==
+f8_diff_binding_on_k4me1_k27ac_regions_merged_RPKM
+==
+check the HM binding on ALL regions with k4me1/k27ac (merged peaks from all cell types)
+use both the peaks and islands for k4me1/k27ac  
+normalized as RPKM
+
+
+==
+f9_diff_binding_on_promoters
+==
+check the HM binding (RPKM and RP) on gene promoters
+
+
+
+
+

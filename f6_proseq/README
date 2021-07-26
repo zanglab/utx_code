@@ -1,0 +1,89 @@
+==
+data_MAPQ1
+==
+used *5prime_strandRev.bed file from
+/nv/vol190/zanglab/zw5j/since2019_projects/UTX_HaoJiang/f0_data_process/pro_seq/data_202101_trim_bigwig/f2_processed_data_with_dup_sep_rep
+read counts on UDHS, promoter, gene body
+read count patterns near TSS
+
+
+==
+data_0x2_MAPQ10
+==
+used *5prime_strandRev.bed file from
+/nv/vol190/zanglab/zw5j/since2019_projects/UTX_HaoJiang/f0_data_process/pro_seq/data_202101_trim_bigwig/f3_processed_data_with_dup_sep_rep_MAPQ10
+
+
+==
+data_modules_revised
+==
+python modules and info. of Drosofila mapped reads for PRO-seq normalization
+
+
+==
+data_union_peaks
+==
+check the overlap of PRO-seq peak, K4/K27 islands to identify potential enhancers
+
+
+
+==
+data_0x2_MAPQ10
+data_MAPQ1
+==
+process PRO-seq with different cutoff reads quality
+
+
+==
+data_modules_revised
+==
+revised python code
+
+
+==
+data_union_peaks
+==
+union of HM islands, PRO-seq peaks
+overlap of different peaks etc. 
+NOTES: please check the latest data under f5_PROseq_at_enhancers_new_202105
+
+
+
+==
+f1_PROsesq_cor_RNAseq
+==
+compare the RPO-seq with RNA-seq
+
+
+==
+f2_PROseq_UDHS_GB_promoter_across_Cells
+==
+PROseq levels at UDHS/GB/promoter across cell types
+
+
+==
+f3_PROseq_at_enhancers_sep_by_UTX_binding
+==
+PROseq levels at identified enhancers across cell types
+enhancers: PROseq peaks overlapping both k4m1/k27ac and UTX
+
+
+==
+f4_PROseq_at_UTX_binding_sep_k4me1
+==
+check PROseq binding patterns surrounding UTX binding sites
+
+
+==
+f5_PROseq_at_enhancers_new_202105
+==
+updated enhancers
+enhancers: PROseq peaks overlapping (k4m1/k27ac and UTX), does not necessarily directly overlap UTX
+
+
+
+
+
+
+
+

@@ -1,0 +1,47 @@
+==
+f1_UTX_binding_promoter_overlap
+==
+for each UTX binding region, get the genes (TSS) that are overlapped with 
+- UTX binding sites
+- UTX binding sites +/-2kb
+- UTX binding sites +/-10kb
+
+
+==
+f2_utx_binding_DEG_figs
+==
+compare the expression of 
+- all genes
+- genes near UTX binding sites
+- genes near UTX binding sites that also with increased K4me1
+in WT vs. Vector, DEL vs. WT and EIF vs. DEL
+for each type of UTX binding sites
+
+
+==
+f3_utx_binding_DEG_logFC_scatter
+==
+compare the expression of 
+- all genes
+- genes near UTX binding sites
+and check the logFC in 
+- WT vs. Vector against DEL vs. WT
+- DEL vs. WT against EIF vs. DEL
+
+
+==
+f4_utx_binding_DEG_figs_w_k27ac
+==
+compare the expression of 
+- all genes
+- genes near UTX binding sites
+- genes near UTX binding sites that also with increased k27ac
+in WT vs. Vector, DEL vs. WT and EIF vs. DEL
+for each type of UTX binding sites
+
+
+
+
+
+
+

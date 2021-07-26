@@ -1,0 +1,11 @@
+
+f1_UTX_binding_DCI
+	assign DCI score (non-normalized) to UTX binding sites
+	
+f2_utx_binding_DCI_figs
+	check DCI of all bins, bins with UTX and bins with UTX + increased k4me1
+	
+f3_utx_binding_DCI_figs_w_k27ac
+	check DCI of all bins, bins with UTX and bins with UTX + increased k4me1
+	
+	

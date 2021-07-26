@@ -1,0 +1,36 @@
+==
+f1_differential_NormReadCount
+==
+for each factor, get the normalized read counts per kb
+- by total reads (RPKM), or by total reads is islands 
+- at peak/island center +/-500bp or +/-2000bp 
+and calculate the differential binding comparing
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+
+
+==
+f2_combined_data
+==
+to integrate the normalized read count per kb
+- normalized by total reads (RPKM) at peak/island center +/-500bp for UTX
+- normalized by total reads is islands at peak/island center +/-2000bp for others
+for each factor in each cell type, and calculate the logFC comparing 
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+
+
+
+==
+f3_combined_data_RPKM
+==
+to integrate the normalized read count per kb
+- normalized by total reads (RPKM) at peak/island center +/-2000bp for all factors
+for each factor in each cell type, and calculate the logFC comparing 
+- WT vs. Vector
+- DEL vs. WT
+- EIF vs. DEL
+
+

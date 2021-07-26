@@ -1,0 +1,16 @@
+==
+gene_Expression_DCI
+==
+
+gene expression, Deseq2 results 
+and DCI from HiChIP of each gene
+
+
+==
+gene_Expression_DCI_RP
+==
+
+add HM binding RPKM/RP at gene promoters
+remove those genes do not have matched data in expression or DCI or HM RPKM/RP
+
+

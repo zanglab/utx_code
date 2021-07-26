@@ -1,0 +1,56 @@
+==
+data_RPKM
+==
+binding RPKM/readCount at UTX peak regions (center +/-500pb and 2kb) 
+
+
+==
+data_binding_pattern
+data_binding_pattern_readCount
+==
+binding pattern (RPKM) of chip-seq on UTX peaks, and 
+binding pattern (readCount) of chip-seq on UTX peaks
+
+
+==
+data_deg_overlap
+==
+check the DEG promoter overlapped UTX peaks
+
+
+
+==
+f1_differential_RPKM
+==
+differentiall binding (log fold change of RPKM) comparing each factor between two cell types
+heatmap of binding signal (RPKM) of each factor between WT and Vector surrounding UTX peaks
+
+
+
+==
+f2_differential_readCount_norm_by_ReadsOnIslands
+==
+for both differential scatter/MA plot and heatmap
+use read count normalized by total number of reads within merge sicer islads for each factor
+(the code here was then modified to generate results using both normalization)
+
+
+
+==
+f3_UTX_peak_based_RP_on_genes
+==
+UTX peak based RP on genes, and compare RP of 
+All-genes
+Up-genes
+Down-genes
+in WT compared to Vector as control
+
+
+
+==
+fz_data_combination
+==
+collect the normalized read count and differential binding for each factor comparing cell types
+
+
+

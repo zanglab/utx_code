@@ -1,0 +1,22 @@
+==
+data_1st_submit_old_not_used 
+==
+ues STAR+RSEM pipeline 
+not correct results (should not set strand-specific)
+not used in down-stream analysis
+
+
+==
+data_1st_submit_STAR_RSEM_new
+==
+use STAR+RSEM pipeline,
+no set of strand-specific in RSEM
+
+
+
+==
+data_1st_submit_salmon  
+==
+use salmon pipeline
+
+

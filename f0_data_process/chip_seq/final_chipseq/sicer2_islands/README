@@ -1,0 +1,22 @@
+==
+xxx_v2
+add the new 202104 k4me2 data
+
+
+
+==
+check_UTX_overlap_with_HM
+
+we may refine the UTX peaks by selecting only those that overlap (may not exactly, within certain bp range) with ANY of the union histone marks: k4me1, 2, 3, k27ac, (but ignore k27me3). As the UTX NOV data show almost flat signal for vector sample, I wonder if we need to use it as control to call UTX peaks to begin with. Can we see how this procedure (overlap with any mark) refines the peaks, before we further analyze them for the changes in expression, histone marks, looping?
+
+
+==
+check_UTX_genomic_distribution
+
+what are the genomic features (percentages at promoter/TSS, gene body including exon intron UTR, intergenic
+
+
+==
+check_UTX_features_add_DEL_saved 
+check_UTX_features_add_DEL -- (UTX on random chrs removed)
+compare the genomic distribution between WT peaks and DEL peaks (both use Vector as control)

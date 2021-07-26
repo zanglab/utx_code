@@ -1,0 +1,5 @@
+chipseq binding RPKM and
+chipseq binding pattern of final selected chip-seq data
+
+only use the mapped bam files form trimmed fq under 
+/nv/vol190/zanglab/zw5j/since2019_projects/UTX_HaoJiang/f0_data_process/chip_seq/final_chipseq/*trim

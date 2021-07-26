@@ -1,0 +1,57 @@
+==
+data_202012
+	QC of 202012 data, process as chip-seq data
+
+
+==
+data_202101 
+	QC of 202101 data, process as chip-seq data
+	
+
+==
+data_202101_bigwig 
+	use bam file to generate bigwig files for both + and - strands
+	1. merge two replicates and REMOVE duplicated reads
+	2. merge two replicates and KEEP duplicated reads
+	
+
+==
+data_202101_trim
+	QC of trimmed 202101 data, process as chip-seq data
+
+
+==
+data_202101_trim_bigwig
+	use bam file (from data_202101_trim) 
+	to generate bigwig files for both + and - strands
+	1. merge two replicates and KEEP duplicated reads
+	2. separate each replicate and KEEP duplicated reads
+
+
+==
+data_202101_trim_Drosophila
+	map trimmed 202101 data to dm6 genome, process as chip-seq data
+    >> samtools view -bS -q 1
+
+==
+data_202101_trim_Drosophila_2
+    >> samtools view -bf 0x2
+
+==
+data_202101_trim_Drosophila_3
+	>> samtools view -bf 0x2 -q 10
+
+
+==
+data_202101_trim_Drosophila_STAR
+	map trimmed 202101 data to dm6 genome, process as rna-seq data
+	
+
+==
+data_202101_trim_rDNA_remove
+	it should be fine not to remove the ribosome sequencing as
+	- we have paired-end reads
+	- we focus on the normalized reads at the specific region
+
+
+

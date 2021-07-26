@@ -1,0 +1,37 @@
+f1_DEG_log2FC_scatter
+	get DEG in WT over VECTOR 
+	then check their gene expression log2FC comparing
+	WT vs. Vector against DEL vs. WT
+	DEL vs. WT against EIF vs. DEL
+	
+f2_DEG_promoter_DCI_scatter
+	get DEG in WT over VECTOR 
+	then check their promoter DCI changes 
+	WT vs. Vector against DEL vs. WT
+	DEL vs. WT against EIF vs. DEL
+f2b_DEG_promoter_DCI_scatter_add_cutoff
+	instead compare DCI of DEG across cell types
+	set a cutoff of DCI and compare the % of DEGs pass the cutoff 
+	
+f3_genome_DCI_scatter
+	get genomic regions with increased/decreased DCI in WT over VECTOR
+	then check their DCI changes comparing
+	WT vs. Vector against DEL vs. WT
+	DEL vs. WT against EIF vs. DEL
+	
+f4_promoter_DCI_scatter
+	get genes with promoter DCI increased/decreased in WT over VECTOR
+	then check their promoter DCI changes comparing
+	WT vs. Vector against DEL vs. WT
+	DEL vs. WT against EIF vs. DEL
+
+f5_promoter_DCI_expression_log2FC_scatter
+    get genes with promoter DCI increased/decreased in WT over VECTOR
+	then check their expression changes comparing
+	WT vs. Vector against DEL vs. WT
+	DEL vs. WT against EIF vs. DEL
+f5b_promoter_DCI_expression_log2FC_scatter_add_cutoff
+	set a cutoff and compare the % of DEGs
+	
+	
+	 
