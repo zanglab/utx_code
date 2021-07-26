@@ -1,8 +1,3 @@
-!!!
-!!! The .fq files of del_TPR_H3K4me1_rep and del_TPR_H3K27ac should be switched
-!!! for data_1st_submit, I manually renames the results after call peak using MACS2
-!!! for data_1st_submit_SICER2, directly processed the data using the name corrected bam files
-!!!
 
 
 
