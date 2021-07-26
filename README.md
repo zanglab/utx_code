@@ -3,7 +3,7 @@
 
 - This repository contains all source code for analyzing the data and generating the figures in the paper:
 
-*UTX condensation underlies its tumor suppressive activity*
+  ```UTX condensation underlies its tumor suppressive activity```
 
 
 
