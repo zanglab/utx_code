@@ -1,4 +1,4 @@
-## README
+# README
 
 
 - This repository contains all source code for analyzing the data and generating the figures in the paper:
@@ -6,14 +6,12 @@
   **UTX condensation underlies its tumor suppressive activity**
 
 
-
 - A README file is attached to each folder/subfolder.
 
-- For scripts used to generate the figures, please refer to README_figure.rst.
 
 
 
-## Notes
+## Notes of data analysis
 
 ### f0_data_process
 
@@ -65,7 +63,7 @@
 
 
  
-### f7_chipseq
+#### f7_chipseq
  
 - analysis of final selected QC passed chipseq data
 - raw & trimmed data /nv/vol190/zanglab/zw5j/projects_data/UTX_HaoJiang/final_chipseq_merge_trim
@@ -75,3 +73,8 @@
 
 ### f8_integrative_analysis
 - integrate expression data, chip-seq binding
+
+
+
+# Notes of scripts for figures
+For scripts used to generate the figures:
