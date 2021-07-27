@@ -96,3 +96,7 @@ data_2021FEB_trim_MACS_q01
 macs2 peaks with q=0.1
 
 
+==
+final_chipseq
+==
+re-process the final selected, QC passed batch of ChIP-seq data
